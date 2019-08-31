@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "BitSonic server framework setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "bitsonic"
+  },
+  "keywords": [
+    "bitsonic",
+    "framework",
+    "setup",
+    "node.js",
+    "express"
+  ],
+  "author": "Warren Wang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
