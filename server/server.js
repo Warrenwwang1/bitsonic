@@ -1,3 +1,10 @@
+/**
+ * Framework for API buy, sell, cancel endpoints
+ * Using Express and Node.js
+ * run `npm install` inside of main project directory
+ * cd into server and run `nodemon server.js`
+ */
+
 const express = require('express');
 var app = express();
 app.post('/api/v1/bitsonic/buy', (req, res) => {
